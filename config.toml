@@ -10,7 +10,7 @@ theme = "FeelIt"
 
 # website title
 # 网站标题
-title = "FeelIt"
+title = "6yardscreamers"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -85,12 +85,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         title = ""
         weight = 5
       [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
+        identifier = "twitter"
+        pre = "<i class='fab fa-twitter'></i>"
         post = ""
         name = ""
-        url = "https://github.com/khusika/FeelIt"
-        title = "GitHub"
+        url = "https://twitter.com/6yardscreamers"
+        title = "Twitter"
         weight = 6
     [languages.en.params]
       # site description
@@ -148,8 +148,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
-          title = "Company"
-          desc = "FeelIt"
+          title = "Pronouns"
+          desc = "She/Her"
         [[languages.en.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
           title = "Occupation"
@@ -157,16 +157,16 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [[languages.en.params.about.status]]
           title = "Location"
           faIcon = "fas fa-map-marker-alt"
-          desc = "Earth"
+          desc = "Canada"
         # description of your parameter
         [[languages.en.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
+          language = "Heading"
+          level = "20"
         [[languages.en.params.about.parameter]]
-          language = "HTML"
-          level = "70"
+          language = "Right Footed"
+          level = "99"
         [[languages.en.params.about.parameter]]
-          language = "Go"
+          language = "Tackling"
           level = "60"
 
       # Home page config
@@ -183,13 +183,13 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "lobster rolls and high xG goals please"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "I don't know what to write here yet"
         # Home page posts
         [languages.en.params.home.posts]
           enable = true
@@ -580,10 +580,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       logo = ""
       # title name
       # 标题名称
-      name = "FeelIt"
+      name = "6 Yard Screamers"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fas fa-hand-holding-heart fa-fw'></i>"
+      pre = "<i class='fas fa-futbol'></i>  <i class='fas fa-chart-line'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -905,12 +905,12 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     GitHub = "xxxx"
     Linkedin = ""
     Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
-    Youtubelegacy = "xxxx"
+    Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
     Tumblr = ""
