@@ -10,7 +10,7 @@ theme = "FeelIt"
 
 # website title
 # 网站标题
-title = "6yardscreamers"
+title = "6YS"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -181,7 +181,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.webp"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "this is a test"
           # subtitle shown in home page (HTML format is supported)
           subtitle = "lobster rolls and high xG goals please"
           # whether to use typeit animation for subtitle

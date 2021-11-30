@@ -8,10 +8,10 @@ author: "FeelIt"
 authorLink: "https://feelit.khusika.com"
 description: "Discover what the Hugo - FeelIt theme is all about and the core-concepts behind it."
 resources:
-- name: "featured-image"
-  src: "featured-image.webp"
-- name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+- name: "previewtest.jpg"
+  src: "previewtest.jpg"
+- name: "previewtest.jpg"
+  src: "previewtest.jpg"
 
 tags: ["installation", "configuration"]
 categories: ["documentation"]
