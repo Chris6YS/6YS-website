@@ -10,7 +10,7 @@ theme = "FeelIt"
 
 # website title
 # 网站标题
-title = "6YS"
+title = "6YS Blog"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -100,7 +100,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "FeelIt"
+        title = "6YS"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -177,20 +177,20 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.en.params.home.profile]
           enable = true
           # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
+          #gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.webp"
+          avatarURL = "/images/profile.jpg"
           # title shown in home page (HTML format is supported)
-          title = "this is a test"
+          title = "6YS Blog"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "lobster rolls and high xG goals please"
+          subtitle = "Christina"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "I don't know what to write here yet"
-        # Home page posts
+          disclaimer = "some  <i class='fab fa-canadian-maple-leaf'></i> reflections on <i class='fas fa-futbol'></i> through data <i class='fas fa-chart-line'></i>"
+          # Home page posts
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
@@ -580,10 +580,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       logo = ""
       # title name
       # 标题名称
-      name = "6 Yard Screamers"
+      name = "6YS Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fas fa-futbol'></i>  <i class='fas fa-chart-line'></i>"
+      pre = "<i class='fab fa-canadian-maple-leaf'></i> <i class='fas fa-futbol'></i>  <i class='fas fa-chart-line'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -902,9 +902,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = "xxxx"
+    GitHub = ""
     Linkedin = ""
-    Twitter = "xxxx"
+    Twitter = "/6yardscreamers"
     Instagram = ""
     Facebook = ""
     Telegram = ""
@@ -963,13 +963,13 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = ""
     Resume = "" #goo.gl id
     xda = ""
-    RSS = true
-    [params.social.Mastodon]
-      id = "@xxxx"
-      prefix = "https://mastodon.technology/"
+    RSS = false
+    #[params.social.Mastodon]
+     # id = ""
+      #prefix = "https://mastodon.technology/"
 
   # TypeIt config
   # TypeIt 配置
