@@ -1,10 +1,10 @@
 ---
-title: "Index"
-subtitle: ""
+title: "Welcome"
+subtitle: "my first 6YS blog post"
 date: 2021-11-30T19:29:14-04:00
 lastmod: 2021-11-30T19:29:14-04:00
 draft: false
-author: ""
+author: "Christina"
 authorLink: ""
 description: ""
 
@@ -32,7 +32,7 @@ output:
 
 <!--more-->
 
-what if I write something here **blog**
+This is my first blog post where I could write thing. Things can be in **bold**
 
 > what if i write this in a block quote
 
