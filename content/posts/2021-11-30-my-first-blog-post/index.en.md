@@ -1,9 +1,9 @@
 ---
 title: "Welcome"
-subtitle: "my first 6YS blog post"
+subtitle: "Intro to the 6YS blog"
 date: 2021-11-30T19:29:14-04:00
 lastmod: 2021-11-30T19:29:14-04:00
-draft: false
+draft: true
 author: "Christina"
 authorLink: ""
 description: ""
@@ -32,11 +32,20 @@ output:
 
 <!--more-->
 
-This is my first blog post where I could write thing. Things can be in **bold**
+### What's this about?
+
+This blog is a dedicated space to share some of my thoughts on football/soccer. Tweets are nice and I'll still do some but this format seems to better meet my need for a more structured, formal and longer form environment. 
+***
+Posts will be dedicated to my views on football from a data and story driven perspective with an emphasis on data visualization. I've got all kind of interests so I won't limit the scope of what topics may feature. However, reoccurring themes will probably include Canadian soccer/football at the very least, be it the national teams, players or domestic leagues.
+***
+I've never had a website/blog before so I'm not really sure how often I'll add new content here. I'm just thrilled to have put it together and get it up and running as a first objective. I had a blast learning and using [Blogdown](https://bookdown.org/yihui/blogdown) for the first time.
+***
+In the end, it may end up as a more technical longer version of some of my [Tweets](https://twitter.com/6yardscreamers). This is purely a space to feed my football data viz and analysis hobby. To be honest, I'm not really sure how this will go but we'll see. 6YS is the abbreviation of my Twitter handle. Any questions can be directed to here or here.
+
+### What Next?
 
 > what if i write this in a block quote
 
-### Introduction
 
 ![this is a title](testalt2.png)
 
