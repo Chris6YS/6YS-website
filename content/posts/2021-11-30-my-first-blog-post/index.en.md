@@ -3,7 +3,7 @@ title: "Welcome"
 subtitle: "Intro to the 6YS blog"
 date: 2021-11-30T19:29:14-04:00
 lastmod: 2021-11-30T19:29:14-04:00
-draft: true
+draft: false
 author: "Christina"
 authorLink: ""
 description: ""
