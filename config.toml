@@ -94,7 +94,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         weight = 6
     [languages.en.params]
       # site description
-      description = "About FeelIt Theme"
+      description = "6YS"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -144,7 +144,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Personal Information"
         # general description of your site
         # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+        description = "Christina loves football (soccer). This is her football related hobby blog. Her profesionnal experience includes clinical psychology, psychometrics, football performance analysis and some other things. When not watching and playing football, she likes making mead and supporting local apiaries. She can be contacted here "
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
@@ -152,21 +152,21 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           desc = "She/Her"
         [[languages.en.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
-          title = "Occupation"
-          desc = "Freelancer"
+          title = "Languages"
+          desc = "English/French"
         [[languages.en.params.about.status]]
           title = "Location"
           faIcon = "fas fa-map-marker-alt"
           desc = "Canada"
         # description of your parameter
         [[languages.en.params.about.parameter]]
-          language = "Heading"
+          language = "Shirt Tucking"
           level = "20"
         [[languages.en.params.about.parameter]]
           language = "Right Footed"
           level = "99"
         [[languages.en.params.about.parameter]]
-          language = "Tackling"
+          language = "Drop-Ball Specialist"
           level = "60"
 
       # Home page config
@@ -189,7 +189,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "some  <i class='fab fa-canadian-maple-leaf'></i> reflections on <i class='fas fa-futbol'></i> through data <i class='fas fa-chart-line'></i>"
+          disclaimer = "some  <i class='fab fa-canadian-maple-leaf'></i> reflections on football <i class='fas fa-futbol'></i> through data <i class='fas fa-chart-line'></i>"
           # Home page posts
         [languages.en.params.home.posts]
           enable = true
@@ -198,176 +198,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # display image-preview
           imagePreview = true
 
-  [languages.zh-cn]
-    weight = 2
-    # 网站语言, 仅在这里 CN 大写
-    languageCode = "zh-CN"
-    # 语言名称
-    languageName = "简体中文"
-    # 是否包括中日韩文字
-    hasCJKLanguage = true
-    # 默认每页列表显示的文章数目
-    paginate = 12
-    # 版权描述，仅仅用于 SEO
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # 菜单配置
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        identifier = "posts"
-        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-        pre = ""
-        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-        weight = 1
-      [[languages.zh-cn.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.zh-cn.menu.main]]
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-        weight = 3
-      [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.zh-cn.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.zh-cn.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/khusika/FeelIt"
-        title = "GitHub"
-        weight = 6
-    [languages.zh-cn.params]
-      # 网站描述
-      description = "关于 FeelIt 主题"
-      # 网站关键词
-      keywords = ["Theme", "Hugo"]
-      # 应用图标配置
-      [languages.zh-cn.params.app]
-        # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "FeelIt"
-        # 是否隐藏网站图标资源链接
-        noFavicon = false
-        # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = ""
-        # Android 浏览器主题色
-        themeColor = "#ffffff"
-        # Safari 图标颜色
-        iconColor = "#5bbad5"
-        # Windows v8-10 磁贴颜色
-        tileColor = "#da532c"
-      # 搜索配置
-      [languages.zh-cn.params.search]
-        enable = true
-        # 搜索引擎的类型 ("lunr", "algolia")
-        type = "algolia"
-        # 文章内容最长索引长度
-        contentLength = 4000
-        # 搜索框的占位提示语
-        placeholder = ""
-        # 最大结果数目
-        maxResultLength = 10
-        # 结果内容片段长度
-        snippetLength = 50
-        # 搜索结果中高亮部分的 HTML 标签
-        highlightTag = "em"
-        # 是否在搜索索引中使用基于 baseURL 的绝对路径
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
-
-      # 关于页面配置
-      [languages.zh-cn.params.about]
-        # 是否启用关于页面的配置文件
-        # 依赖于取决于 .Site.Params.home.profile.enable
-        enable = true
-        # 是否启用参数布局
-        param = true
-        # 参数布局的标题
-        paramTitle = "个人信息"
-        # 您网站的一般描述
-        # 可以用markdown样式写
-        description = "[FeelIt](https://github.com/khusika/FeelIt) 是一个由 [Khusika](https://khusika.com) 开发的**简洁**、**优雅**且**高效**的 [Hugo](https://gohugo.io/) 博客主题。 它的原型基于 [LoveIt 主题](https://github.com/dillonzq/LoveIt), [LeaveIt 主题](https://github.com/liuzc/LeaveIt), 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。"
-        # 你的状态描述
-        [[languages.zh-cn.params.about.status]]
-          faIcon = "fas fa-building"
-          title = "公司"
-          desc = "FeelIt"
-        [[languages.zh-cn.params.about.status]]
-          faIcon = "fas fa-briefcase fa-fw"
-          title = "职业"
-          desc = "自由职业者"
-        [[languages.zh-cn.params.about.status]]
-          title = "地点"
-          faIcon = "fas fa-map-marker-alt"
-          desc = "地球"
-        # 参数说明
-        [[languages.zh-cn.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
-        [[languages.zh-cn.params.about.parameter]]
-          language = "HTML"
-          level = "70"
-        [[languages.zh-cn.params.about.parameter]]
-          language = "Go"
-          level = "60"
-
-      # 主页信息设置
-      [languages.zh-cn.params.home]
-        # RSS 文章数目
-        rss = 10
-        # 主页个人信息
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          # Gravatar 邮箱，用于优先在主页显示的头像
-          gravatarEmail = ""
-          # 主页显示头像的 URL
-          avatarURL = "/images/avatar.webp"
-          # 主页显示的网站标题 (支持 HTML 格式)
-          title = ""
-          # 主页显示的网站副标题 (支持 HTML 格式)
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
-          # 是否为副标题显示打字机动画
-          typeit = true
-          # 是否显示社交账号
-          social = true
-          # 免责声明 (支持 HTML 格式)
-          disclaimer = ""
-        # 主页文章列表
-        [languages.zh-cn.params.home.posts]
-          enable = true
-          # 主页每页显示文章数量
-          paginate = 6
-          # display image-preview
-          imagePreview = true
-
-  [languages.fr]
+   [languages.fr]
     weight = 3
     # language code
     languageCode = "fr"
@@ -480,8 +311,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Informations Personnelles"
         # general description of your site
         # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
-        # description of your status
+        description = "Christina is a simple Canadian gal who loves football."
         [[languages.fr.params.about.status]]
           faIcon = "fas fa-building"
           title = "Compagnie"
@@ -580,7 +410,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       logo = ""
       # title name
       # 标题名称
-      name = "6YS Blog"
+      name = "6YS"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='fab fa-canadian-maple-leaf'></i> <i class='fas fa-futbol'></i>  <i class='fas fa-chart-line'></i>"
@@ -592,7 +422,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       typeit = false
       # whether to show RSS icon
       # 是否显示RSS图标
-      rss = true
+      rss = false
 
   # Footer config
   # 页面底部信息配置
@@ -609,10 +439,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     copyright = true
     # whether to show the author
     # 是否显示作者
-    author = true
+    author = false
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2021
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -758,23 +588,23 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
+      Facebook = false
       Linkedin = false
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
       Myspace = false
       Blogger = false
@@ -798,7 +628,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Vssue comment config (https://github.com/meteorlxy/vssue)
       # Vssue 评论系统设置 (https://github.com/meteorlxy/vssue)
       [params.page.comment.vssue]
-        enable = true
+        enable = false
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         # Vssue 平台 API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         platform = "github"
